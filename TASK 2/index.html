@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurav - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lumanosimo&family=Poppins:wght@100&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0px;
+            
+        }
+        body{
+            background-color: rgb(17, 11, 17);
+            color: white;
+            font-family: 'Roboto', sans-serif;
+           
+
+        }
+    
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            background-color: purple;
+         
+            
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        nav ul li{
+            list-style: none;
+            margin:  0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+            
+        }
+        nav ul li a:hover{
+            text-decoration: none;
+            color:lavender;
+            font-size: 1.6em;
+
+        }
+        nav>div{
+            margin: 0 10px;
+        }
+        .left{
+            font-size: 1.5em;
+           
+        }
+        .left img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            top: 3px;
+            left: 10px;
+        }
+        .left img:hover{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+        .left ul li{
+            margin: 2px 15px;
+            align-self: center;
+            font-size: 1.0em;
+            
+        }
+        
+
+        .left:hover{
+            color:lavender;
+            font-size: 2.0em;
+        }
+        
+
+
+
+
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 150px 0;
+        }
+        .firstSection>div{
+           width: 30%;
+         
+          
+        }
+        .leftSection{
+            
+            font-size: 2.7rem;
+            margin: 40px 0;
+           
+        }
+        .rightSection img{
+            width: 80%;
+            margin: 50px 0;
+
+           
+        }
+        .purple{
+            color: purple;
+        }
+        .text-grey{
+            color: grey;
+        }
+        #element{
+            color:purple;
+        }
+
+        .firstSection .flinks button{
+            padding: 12px;
+            background: blueviolet;
+            color: white;
+           
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        main hr{
+            border: 0;
+            background: purple;
+            height: 1.2px;
+            width: 90vw;
+            margin: 40px 84px;
+           
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+       
+        .secondSection h1{
+            font-size: 1.9em;
+
+        }
+        .secondSection .box{
+            background: purple;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+           
+        }
+        .secondSection .vertical{
+            height: 93px;
+            background-color: purple;
+            width: 2px;
+            margin: 0 115px;
+
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-text{
+            position: relative;
+            top: 75px;
+            font-size: 13px;
+            width: 96px;
+            text-align: left;
+
+        }
+        .vertical-desc{
+            position: relative;
+            top:86px;
+            color: grey;
+            width: 150px;
+            font-size: 9px;
+        }
+        footer{
+            background-color: purple;
+            color: white;
+            height: 233px;
+
+        }
+        .flex{
+            display: flex;
+            margin: 23px 122px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+              <ul>
+                <li><img src="/36928d2b20fbf3d3a47440e68166bf82.jpg" alt=""></li>
+                <li> Saurav Gupta</li>
+              </ul>
+            </div>
+            <div class="right">
+                <ul>
+                 <li><a href="#first" target="_self">Home</a></li>
+                 <li><a href="#second">About</a></li>
+                 <li><a href="">Services</a></li>
+                 <li><a href="">Projects</a></li>
+                 <li><a href="mailto:tushar@gmail.com">Contact Me</a></li>
+                </ul>
+            </div> 
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection" id="first">
+            <div class="leftSection">
+               Hi, My name is <span class="purple">Saurav Gupta </span>
+              <div>and I am a passionate</div>
+              
+              <span id="element"></span>
+              <div class="flinks">
+                <button>Git Hub</button>
+                <button>Resume</button>
+            </div>
+
+            </div>
+            <div class="rightSection">
+                <img src="/software-development.png" alt="">
+                
+            </div>
+            
+        </section>
+        <hr>
+        <section class="secondSection" id ="second">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="/portfolio website/HTML5_badge.png" class="image-top" alt="">
+                    <div class="vertical-text">
+                        DSA<br>
+                        [2022-2023]
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam earum sapiente commodi, reiciendis alias eum deserunt eaque ipsum aliquam ducimus voluptatibus. Suscipit, doloremque?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img  src="/portfolio website/Instagram_AppIcon_Aug2017.webp" class="image-top" alt="">
+                    <div class="vertical-text">
+                        WEB Developer 
+                        [2022-2023]
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam earum sapiente commodi, reiciendis alias eum deserunt eaque ipsum aliquam ducimus voluptatibus. Suscipit, doloremque?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img  src="/portfolio website/Instagram_AppIcon_Aug2017.webp" class="image-top" alt="">
+                    <div class="vertical-text">
+                        WEB Developer 
+                        [2022-2023]
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam earum sapiente commodi, reiciendis alias eum deserunt eaque ipsum aliquam ducimus voluptatibus. Suscipit, doloremque?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img  src="/portfolio website/Instagram_AppIcon_Aug2017.webp" class="image-top" alt="">
+                    <div class="vertical-text">
+                        WEB Developer 
+                        [2022-2023]
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam earum sapiente commodi, reiciendis alias eum deserunt eaque ipsum aliquam ducimus voluptatibus. Suscipit, doloremque?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img  src="/portfolio website/Instagram_AppIcon_Aug2017.webp" class="image-top" alt="">
+                    <div class="vertical-text">
+                        WEB Developer 
+                        [2022-2023]
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam earum sapiente commodi, reiciendis alias eum deserunt eaque ipsum aliquam ducimus voluptatibus. Suscipit, doloremque?
+                    </div>
+                </div>
+                
+
+
+
+            </div>
+        </section>
+
+        
+    </main>
+    
+</body>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer','Web Designer'],
+      
+      typeSpeed: 100,
+    });
+  </script>
+</html>
